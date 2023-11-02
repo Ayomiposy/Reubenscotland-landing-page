@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+.head {
+    background: url(./assets/header\ image.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.747);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+strong {
+    color: yellow;
+}
+
+.head p {
+    font-size: 1.3rem;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 3rem;
+    border: 0.5rem white double;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-family: 'Lato', sans-serif;
+    color: beige;
+}
+
+@media (max-width: 40rem) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .head p {
+        font-size: 1rem;
+    }
+}
+
+.wwd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 3rem;
+}
+
+h2 {
+    font-size: 5rem;
+    color: #b69609;
+}
+
+.selling-point {
+    display: flex;
+    justify-content: space-around;
+}
+
+.selling-points {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    margin-top: 1.7rem;
+    background-color: #b31111;
+    padding: 0.9rem;
+    border: 0.8rem solid #b69609;
+    border-radius: 0.8rem;
+}
+
+.selling-point h3 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    margin: 5px 0;
+}
+
+.selling-point p {
+    color: white;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 48rem) {
+    .selling-point {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .selling-points {
+        width: 100%;
+    }
+}
