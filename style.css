@@ -112,7 +112,7 @@ footer {
     background: url(./assets/footer-img.jpg);
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.733);
+    background-color: rgba(0, 0, 0, 0.815);
     height: 60vh;
     display: flex;
     flex-direction: row-reverse;
